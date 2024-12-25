@@ -1,5 +1,12 @@
+import { Helmet } from "react-helmet-async";
+
 const Profile = () => {
-  return <div>Profile</div>;
+  return (
+    <main>
+      <Helmet title="Profile" />
+      <span>Profile</span>
+    </main>
+  );
 };
 
 export default Profile;
